@@ -14,13 +14,14 @@ This avoids common software-based input detection methods by sending relative mo
 
 - `dd40605x64.dll` in the same directory as your script  
 - Python 3.x  
-- Optional: `pywin32` for keybind detection (`pip install pywin32`)  
+- Optional: `pywin32` for keybind detection (`pip install pywin32`)
+- Administrator Privileges
 
 ## Usage
 
 1. Place `dd40605x64.dll` alongside your Python script.  
 2. Import and initialize the DLL using the provided template.  
-3. Use `DD_movR(x, y)` for relative mouse movement and `DD_btn(code)` to simulate mouse button presses.  
+3. Use `DD_movR(x, y)` for relative mouse movement and `DD_btn(code)` to simulate mouse button presses.
 
 Example:
 ```python
